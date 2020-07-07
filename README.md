@@ -1,1 +1,11 @@
 # adc-users
+
+
+env variables : 
+
+MYSQL_DB
+MYSQL_HOST
+MYSQL_PASSWORD
+MYSQL_PORT
+MYSQL_USERNAME
+USERS_PORT
