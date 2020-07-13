@@ -35,7 +35,7 @@ public class UserControler {
 		Logger log = LoggerFactory.getLogger(this.getClass());
 		
 		@ApiOperation(value = "Ajoute un utilisateur en base")
-		@PostMapping(path="users/register")
+		@PostMapping(path="/users/register")
 		public ResponseEntity<Void> createUser(@Valid @RequestBody User user) {
 			log.info(" =======> " + user.getUsername() + " :: " + user.getPassword() + " :: "+ user.getEmail() + " *******");
 			
